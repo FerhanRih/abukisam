@@ -1,0 +1,119 @@
+body {
+    background-color: #010d0e;
+    background-size: cover;
+    margin: 0;
+    padding: 0;  
+    justify-content: center;
+    align-items: first baseline;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+ h1 { 
+    color: rgb(90, 67, 3);
+    background-repeat: no-repeat;
+    text-shadow: -0px 13px 10px rgb(255, 255, 255);
+    text-align: center;
+    background-size: cover;
+    background-size: 700px;
+    padding: 150px;
+    margin: 150px;
+    font-size: 130px;
+    font-weight: 500px;
+    font-family: serif;
+    text-transform: uppercase;
+    background-position: center;
+    display:flex;
+    flex-wrap: wrap;
+}
+.p{
+    text-transform: uppercase;
+    text-shadow: -3px 5px 10px rgb(243, 242, 242);
+    margin-bottom: 25px;
+    font-family: serif;
+    font-size: 50px;
+    color: rgb(230, 176, 247);
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+b{
+    color: rgb(224, 70, 9);
+}
+.q{
+    text-shadow: -5px 5px 10px rgb(165, 170, 172);
+    color: rgb(245, 218, 144);
+    margin-bottom: 25px;
+    font-family: serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.img {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    animation: myAnimation 5s infinite;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   
+   @keyframes myAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(200px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+   }
+/* styles.css */
+
+/* Nav bar container */
+.navbar {
+    background-color: rgba(0,0,0,0);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+   }
+   
+   /* Nav bar links */
+   .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+    font-family: serif;
+   }
+   
+   /* Change color on hover */
+   .navbar a:hover {
+    background-color: #035245;
+    color: rgb(10, 10, 10);
+   }
+   
+   /* Animation */
+   @keyframes slideInFromLeft {
+     0% {
+       transform: translateX(-100%);
+    }
+     100% {
+       transform: translateX(0%);
+    }
+   }
+   
+   .navbar {
+    animation: slideInFromLeft 1s forwards;
+   }
+    
+
+
+
